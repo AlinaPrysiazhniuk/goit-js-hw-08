@@ -34,8 +34,6 @@ function formAddEventListener() {
   );
 }
 
-formAddEventListener();
-
 refs.form.addEventListener('submit', event => {
   event.preventDefault();
   populateData();
